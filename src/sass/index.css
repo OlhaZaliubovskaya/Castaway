@@ -1,0 +1,159 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+  --primary-font-family: "DM+Sans", sans-serif;
+  --accent-color:#118DA8;
+  --text-color:#FFFFFF;
+  --fon-color:#000000;
+  --fon-title-color:#191919;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  color: var(--text-color);
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  background-color: var(--fon-title-color);
+}
+
+.container {
+  width: 1440px;
+  height: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header__body {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__list li {
+  margin: 0px 0px 0px 20px;
+}
+
+.header__link {
+  color: var(--text-color);
+  font-family: "DM Sans";
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5px;
+  text-decoration: none;
+}
+.header__link:hover, .header__link:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.header__logo {
+  font-weight: 900;
+  color: var(--text-color);
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__gallery-img {
+  border-radius: 12px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 436.5px);
+}
+
+.hero__right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.hero__suptitle {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.25;
+  letter-spacing: 3.2px;
+  margin-bottom: 40px;
+  margin-right: 25px;
+}
+
+.hero__title {
+  font-family: "DM Sans";
+  font-style: normal;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 1.17px;
+  letter-spacing: 3.2px;
+}
+
+.hero__section-description {
+  font-family: "DM Sans";
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.1px;
+}/*# sourceMappingURL=index.css.map */
